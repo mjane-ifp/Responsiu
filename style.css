@@ -28,8 +28,11 @@ p{
     width: 100%;
     scale: 0 1;
     animation: analitzador linear;
-    animation-timeline: scroll();
     transform-origin: left;
+    
+    -webkit-animation-timeline: scroll();
+       -moz-animation-timeline: scroll();
+            animation-timeline: scroll();
 }
 
 @keyframes analitzador {
